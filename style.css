@@ -54,6 +54,11 @@ img {
    transition: 0.3s;
 }
 
+.header .nav ul li a {
+   text-decoration: none;
+   color: black;
+}
+
 .nav ul li:not(:hover) {
    transform: scale(1);
    transition: 0.3s;
@@ -132,6 +137,7 @@ img {
       display: none;
    }
 
+
    .nav {
       align-items: center;
       justify-content: center;
@@ -179,12 +185,6 @@ img {
       display: grid;
       grid-template-columns: 1fr 1fr;
    }
-
-   .side div {
-      margin;
-   }
-
-
 }
 
 @media (max-width: 900px) {
