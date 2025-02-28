@@ -22,6 +22,7 @@
 .mobile {
    display: none;
    position: sticky;
+   user-select: none;
    top: 70px;
 }
 
@@ -60,7 +61,7 @@
 .about {
    text-align: center;
    margin: 200px auto 0 auto;
-   font-size: 30px;
+   font-size: 20px;
    width: 80%;
 }
 
